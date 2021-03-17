@@ -21,6 +21,7 @@ Just create a pipeline like this:
             }
         }
     }
-}```
+}
+```
 
 and execute it, and you'll see that the shell variable is printed correctly and the plugin does not get the environment variable.
