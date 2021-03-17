@@ -2,7 +2,10 @@
 
 This demonstrates that Jenkins currently does not pass environment variables to plugins. 
 
-Just create a pipeline like this:
+To execute it:
+- Run `mvn clean hpi:run`
+- Go to `localhost:8080/jenkins` and install the pipeline plugin
+- Create a pipeline like this:
 
 ```pipeline {   
     agent any
