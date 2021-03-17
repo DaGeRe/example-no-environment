@@ -1,3 +1,7 @@
+# Solution
+
+To use environment variables in Jenkins, just use `public void perform(Run<?, ?> run, FilePath workspace, EnvVars env, Launcher launcher, TaskListener listener)`.
+
 # example-no-environment
 
 This demonstrates that Jenkins currently does not pass environment variables to plugins. 
