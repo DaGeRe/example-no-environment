@@ -7,7 +7,8 @@ To execute it:
 - Go to `localhost:8080/jenkins` and install the pipeline plugin
 - Create a pipeline like this:
 
-```pipeline {   
+```
+pipeline {   
     agent any
     environment {
         GITUSER = 'MyExampleUser'
